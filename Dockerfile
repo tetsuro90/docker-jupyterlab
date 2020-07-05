@@ -1,4 +1,5 @@
-FROM jupyter/datascience-notebook:862de146632b
+# FROM jupyter/datascience-notebook:862de146632b
+FROM jupyter/r-notebook:2c0af4ab516b
 
 RUN conda install -y -c conda-forge \
         curl \
