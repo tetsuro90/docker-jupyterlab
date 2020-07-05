@@ -2,5 +2,9 @@
 This provides a local jupyterlab server.  
 
 ## How to use
-1. Clone this repository
-`git clone 
+You just execute following commands.
+```
+$ git clone https://github.com/tetsuro90/docker-jupyterlab.git
+$ cd docker-jupyterlab
+$ docker-compose up -d
+```
